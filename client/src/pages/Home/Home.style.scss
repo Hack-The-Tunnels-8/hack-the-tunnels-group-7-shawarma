@@ -1,8 +1,13 @@
 .home-page {
+  @media (prefers-color-scheme: light){
+    background: whitesmoke;
+  
   &__title {
     color: red;
   }
-
+  }
+  @media (prefers-color-scheme: dark){
+    background: black;
   &__products {
     display: flex;
     flex-direction: column;
@@ -12,4 +17,5 @@
       color: inherit;
     }
   }
+}
 }
