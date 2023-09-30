@@ -1,14 +1,19 @@
 .product-preview-card {
   &__title {
     font-style: bold;
-    color: green;
+    font-style: italic;
+    color: darkorange;
   }
 
   &__description {
-    color: blue;
+    color: deepskyblue;
+
   }
 
   &__image {
+    width: 10rem;
+  }
+   &__price {
     width: 10rem;
   }
 }
